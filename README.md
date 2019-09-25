@@ -1,6 +1,6 @@
 # Library-Management-System
 
-hy there !
+
 This project includes <b>admin</b> portal and <b>student</b> .
 
 ### STUDENT PORTAL
