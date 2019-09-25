@@ -1,0 +1,85 @@
+<?php
+
+
+if( isset($_POST['count_book'] ) )
+{
+	$sql = ' SELECT * FROM books ' ;
+	 $connStatus = @mysqli_query($conn,$sql);
+	$numberOfRows = @mysqli_num_rows($connStatus);
+ 
+    //$pt =  "TOTAL NUMBER OF BOOKS PRESENT IN THE LIBRARY &nbsp;&nbsp;".$numberOfRows."&nbsp;&nbsp; /-"; 
+      
+	  //echo $pt;
+	  
+	}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/47d5219a95.js"></script>
+
+	 
+
+	<title>ADMIN</title>
+	
+
+	<link href="https://fonts.googleapis.com/css?family=Aclonica|Bungee+Inline&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    
+
+  <!-- <meta charset="UTF-8"> -->
+
+	<style>
+	*{
+		border: 0px;
+	    padding: 0px;
+	}
+	body{
+		background-color: white;
+	}
+		#strap{
+			position: absolute;
+			top:0px;
+			left:0px;
+			width: 200px;
+			height:657px;
+			background-image: linear-gradient( 45deg ,#23074d , #cc5333  );
+			opacity: 0.8;
+		}
+		#top{
+			position: absolute;
+          top:0px;
+          left: 0px;
+           width:1366px;
+           height:35px;
+          background-color:rgb(139,69,19);
+
+		}
+		#lib{
+			position: absolute;
+			top:10px;
+			left:21px;
+			font-family: 'Aclonica', sans-serif;
+			font-size: 32px;
+		}
+		i{
+			background-color: black;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- <div id="top"></div> -->
+<div id="strap">
+	<p id="lib">LIBRARY</p>
+	<ul>
+		<li><i class="far fa-border-all"></i><br><p>Dashboard</p></li>
+	    <li><i class="fas fa-theater-masks"></i><br><p>Grievance</p></li>
+	</ul>
+</div>
+<form action="count.php" method="post">
+<button name="count_book" style="position: absolute;top: 100px;left:200px;">COUNT</button>
+</form>
+</body>
+</html>
