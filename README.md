@@ -7,7 +7,7 @@ This project includes <b>admin</b> portal and <b>student</b> .
 It have a student login site which when matches correctly with ceredentials logs person in to the dashboard 
 of the student poratl  .
 
-![Screenshot (134)](https://user-images.githubusercontent.com/47947329/65633098-2d4fcd00-df90-11e9-91db-74802330ca4b.png)
+![Screenshot (141)](https://user-images.githubusercontent.com/47947329/66231101-7db6e100-e69a-11e9-88ba-9867204c8278.png)
 
 <b>Dashboard :</b> 
 
