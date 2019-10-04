@@ -9,6 +9,12 @@ of the student poratl  .
 
 ![Screenshot (141)](https://user-images.githubusercontent.com/47947329/66231101-7db6e100-e69a-11e9-88ba-9867204c8278.png)
 
+On clicking eye of the password input the encryption of the password will be done in the text format so that we can check whether we are entering the correct password or not . 
+
+IN SIGN-UP :
+When we provide the password in the field the wehn we provide the confirm password value then value will be compared if both password and confirm password are same then both the fields will turn green and if not then the fields will turn red .
+
+
 <b>Dashboard :</b> 
 
 <ul>
